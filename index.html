@@ -8,12 +8,12 @@
   </head>
   <body>
     <header class="header-old position-relatives" role="banner">
-      <div class="container-xl d-lg-flex flex-items-center p-responsive">
+      <div class="container-xl flex-items-center p-responsive">
         <div class="d-flex flex-justify-between flex-items-center">
           <a href="https://github.com/" class="mr-4"
             ><svg
               height="32"
-              class="octicon"
+              class="main-label"
               viewBox="0 0 16 16"
               version="1.1"
               width="32"
@@ -27,16 +27,9 @@
           </a>
           <div>
             <nav class="navbar d-flex flex-items-center">
-              <div class="dropdown py-3">
-                <a class="dropbtn">
-                  Why Github?<span
-                    ><img
-                      class="arrow-down"
-                      src="images/down.svg"
-                      alt="arrow-down"
-                  /></span>
-                </a>
-                <div class="dropdown-content f5">
+              <div class="dropdown p-tb-1">
+                <a class="dropbtn"> Why Github? ˅<span></span> </a>
+                <div class="dropdown-content f2">
                   <a href="https://github.com/features"
                     ><span class="text-black">Features</span></a
                   >
@@ -74,73 +67,63 @@
                 </div>
               </div>
               <a
-                class="mr-lg-3 py-3 f4 text-white"
+                class="mr-3 p-tb-1 h2 text-white font-famile-helvetica-16"
                 href="https://github.com/team"
                 >Team</a
               >
               <a
-                class="mr-lg-3 py-3 f4 text-white"
+                class="mr-3 p-tb-1 h2 text-white font-famile-helvetica-16"
                 href="https://github.com/enterprise"
                 >Enterprise</a
               >
-              <div class="dropdown width-btn-explore mr-lg-3 py-3">
-                <a class="dropbtn">
-                  Explore?<span
-                    ><img
-                      class="arrow-down"
-                      src="images/down.svg"
-                      alt="arrow-down"
-                  /></span>
+              <div class="dropdown width-btn-explore mr-3 p-tb-1">
+                <a class="dropbtn font-famile-helvetica-16">
+                  Explore? ˅<span></span>
                 </a>
-                <div class="dropdown-content f5">
+                <div class="dropdown-content f2">
                   <a href="https://github.com/explore"
                     ><span class="text-black">Explore GitHub</span></a
                   >
                   <div class="line"></div>
                   <a><span class="text-gray">Learn & contribute</span></a>
                   <a href="https://github.com/topics"
-                    ><span class="text-gray">Topics</span></a
-                  >
+                    ><span class="text-gray">Topics</span>
+                  </a>
                   <a href="https://github.com/collections"
-                    ><span class="text-gray">Collections</span></a
-                  >
+                    ><span class="text-gray">Collections</span>
+                  </a>
                   <a href="https://github.com/trending"
-                    ><span class="text-gray">Trending</span></a
-                  >
+                    ><span class="text-gray">Trending</span>
+                  </a>
                   <a href="https://lab.github.com/"
-                    ><span class="text-gray">Learning Lab</span></a
-                  >
+                    ><span class="text-gray">Learning Lab</span>
+                  </a>
                   <a href="https://opensource.guide/"
-                    ><span class="text-gray">Open source guides</span></a
-                  >
+                    ><span class="text-gray">Open source guides</span>
+                  </a>
                   <div class="line"></div>
                   <a><span class="text-gray">Connect with others</span></a>
                   <a href="https://github.com/events"
-                    ><span class="text-gray">Events</span></a
-                  >
+                    ><span class="text-gray">Events</span>
+                  </a>
                   <a href="https://github.community/"
-                    ><span class="text-gray">Community forum</span></a
-                  >
+                    ><span class="text-gray">Community forum</span>
+                  </a>
                   <a href="https://education.github.com/"
-                    ><span class="text-gray">GitHub Education</span></a
-                  >
+                    ><span class="text-gray">GitHub Education</span>
+                  </a>
                 </div>
               </div>
               <a
-                class="mr-lg-3 py-3 f4 text-white"
+                class="mr-3 p-tb-1 h2 text-white font-famile-helvetica-16"
                 href="https://github.com/marketplace"
                 >Marketplace</a
               >
-              <div class="dropdown py-3">
-                <a class="dropbtn">
-                  Pricing?<span
-                    ><img
-                      class="arrow-down"
-                      src="images/down.svg"
-                      alt="arrow-down"
-                  /></span>
+              <div class="dropdown p-tb-1">
+                <a class="dropbtn font-famile-helvetica-16">
+                  Pricing? ˅<span></span>
                 </a>
-                <div class="dropdown-content f5">
+                <div class="dropdown-content f2">
                   <a href="https://github.com/pricing"
                     ><span class="text-black">Plans</span></a
                   >
@@ -160,20 +143,45 @@
                 </div>
               </div>
             </nav>
-            <div class="d-lg-flex flex-items-center px-lg-0">
-              <div class="d-lg-flex mb-lg-0"><label></label></div>
+            <div class="d-flex flex-items-center pr-0">
+              <div class="d-flex mb-0"><label></label></div>
             </div>
+          </div>
+          <div class="d-flex flex-items-center">
+            <form>
+              <input
+                class="header-search-wrapper search-github p-searcg-github rounded-1 bg-gray text-beidge"
+                type="text"
+                placeholder="Search GitHub"
+              />
+              <!-- <img
+                src="images/search-key-slash.svg"
+                alt="search-key"
+                class="mr-2 header-search-wrapper"
+              /> -->
+            </form>
+            <a href="/login" class="h4 mr-rl-3 font-famile-helvetica text-white"
+              >Sign in</a
+            >
+            <a
+              href="/join?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home"
+              class="text-white h4 p-4-8 border rounded-1 font-famile-helvetica"
+              >Sign up</a
+            >
           </div>
         </div>
       </div>
     </header>
     <!-- main -->
     <main>
-      <div class="py-sm-8 jumbotron-codelines">
-        <div class="container-lg p-responsive position-relative">
-          <div class="d-md-flex flex-items-center gutter-md-spacious">
-            <div class="col-md-7 text-md-left">
-              <h1 class="text-white lh-condensed-ultra mb-3">
+      <!-- section-1 -->
+      <div class="p-tb-7 jumbotron-codelines">
+        <div
+          class="container-width container-lg p-responsive position-relative"
+        >
+          <div class="d-flex flex-items-center gutter-md-spacious">
+            <div class="col-6 text-md-left">
+              <h1 class="h000-mktg text-white lh-1 mb-3">
                 Built for developers
               </h1>
               <p class="lead-mktg mb-4">
@@ -189,9 +197,1324 @@
                 software alongside 50 million developers.
               </p>
             </div>
+            <div class="mx-auto col-5">
+              <div class="p-24 rounded-1 bg-gray-light text-gray">
+                <form class="text-gray-dark">
+                  <div class="free-trial__item">
+                    <label class="h5" for="user[login]"
+                      >Username<input
+                        type="text"
+                        name="user[login]"
+                        id="user[login]"
+                        class="input form-control form-group"
+                        required
+                    /></label>
+                  </div>
+                  <div class="free-trial__item">
+                    <label class="h5"
+                      >Email<input
+                        type="text"
+                        name="user[login]"
+                        id="user[login]"
+                        class="input form-control form-group"
+                        required
+                    /></label>
+                  </div>
+                  <div class="free-trial__item">
+                    <label class="h5"
+                      >Password<input
+                        type="text"
+                        name="user[login]"
+                        id="user[login]"
+                        class="input form-control form-group"
+                        required
+                    /></label>
+                  </div>
+                </form>
+                <p class="form-control-note">
+                  Make sure it's at least 15 characters OR at least 8 characters
+                  including a number and a lowercase letter.
+                  <a
+                    href="https://docs.github.com/articles/creating-a-strong-password"
+                    class="text-blue text-decor"
+                    >Learn more</a
+                  >.
+                </p>
+                <button
+                  class="btn-mktg btn-primary-mktg btn-large-mktg btn-block btn-mr-tb h2"
+                >
+                  <a href="https://github.com/join" class="text-white"
+                    >Sign up for GitHub</a
+                  >
+                </button>
+                <p class="form-control-note mt-3">
+                  By clicking “Sign up for GitHub”, you agree to our
+                  <a
+                    href="https://docs.github.com/terms"
+                    class="text-blue text-decor"
+                    >Terms of Service</a
+                  >
+                  and
+                  <a
+                    href="https://docs.github.com/privacy"
+                    class="text-blue text-decor"
+                    >Privacy Statement</a
+                  >.
+                  <span
+                    >We’ll occasionally send you account related emails.</span
+                  >
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+      <!-- section-2 -->
+      <div class="home-enterprise-wrapper p-responsive pt-10 pb-9">
+        <div class="container-xl pl-2">
+          <div
+            class="container-xl home-enterprise d-flex flex-justify-between mx-auto p-6 bg-white rounded-1 box-shadow-large"
+          >
+            <div
+              class="d-none d-md-block position-absolute right-0 top-0 z-3"
+              style="width: 450px; transform: translateY(-85%);"
+            >
+              <img src="images/pictures.svg" alt="cats in the space" />
+            </div>
+            <div class="text-center text-md-left mb-3 col-28">
+              <h2 class="h1-mktg lh-2 mb-3">
+                Get started with GitHub&nbsp;Enterprise
+              </h2>
+              <p class="h3 text-gray mr-5">
+                Take collaboration to the next level with security and
+                administrative features built for&nbsp;teams.
+              </p>
+            </div>
+            <div
+              class="d-flex flex-wrap flex-md-nowrap flex-justify-around flex-lg-justify-end col-7"
+            >
+              <div
+                class="d-flex flex-column flex-justify-between flex-items-center text-center p-3"
+              >
+                <div>
+                  <img src="images/123.svg" alt="" class="mb-2" />
+                  <h3 class="font-famile-helvetica-16 font-weight-600">
+                    Enterprise
+                  </h3>
+                  <p class="f5 text-gray">
+                    Deploy to your environment or the cloud.
+                  </p>
+                </div>
+                <a
+                  class="btn-mktg mb-1 d-block d-md-inline-block text-center"
+                  href="/organizations/enterprise_plan?ref_cta=Start+a+free+trial&amp;ref_loc=Get+started+with+Enterprise&amp;ref_page=%2F"
+                  >Start a free trial</a
+                >
+              </div>
+              <div
+                class="d-flex flex-column flex-justify-between flex-items-center text-center p-3"
+              >
+                <div>
+                  <img src="images/234.svg" alt="" class="mb-2" />
+                  <h3 class="font-famile-helvetica-16 font-weight-600">
+                    Talk to us
+                  </h3>
+                  <p class="f5 text-gray">Need help?</p>
+                </div>
+                <a
+                  class="btn-mktg btn-outline-mktg mb-1 d-block d-md-inline-block text-center Bump-link"
+                  href="https://enterprise.github.com/contact?ref_page=/&amp;ref_cta=Contact%20Sales&amp;ref_loc=Get%20started%20with%20Enterprise"
+                  >Contact Sales <span class="Bump-link-symbol">→</span></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- section 3 -->
+      <div class="container-xl p-responsive p-tb-6">
+        <div
+          class="bg-blue-7 rounded-1 box-shadow-large m-rl-2 position-relative promo-banner-bg ptn-p-tb text-white"
+        >
+          <div class="position-relative d-flex flex-justify-between pl-2 pr-4">
+            <div class="col-lg-1 d-flex">
+              <div class="mt-2 mr-3 mb-0">
+                <span title="NEW" class="label">NEW</span>
+              </div>
+              <div>
+                <h2 class="lh-3 font-famile-helvetica-24">
+                  GitHub is now free for teams
+                </h2>
+                <p class="mb-3 mb-0 h2 font-famile-helvetica-16">
+                  GitHub Free gives teams private repositories with unlimited
+                  collaborators at no cost. GitHub Team is now reduced to $4 per
+                  user/month.
+                </p>
+              </div>
+            </div>
+            <button
+              class="col-lg-3 btn-mktg btn-large-mktg h2 btn-mr-tb btn-mr-left"
+            >
+              <a href="https://github.com/join" class="text-white"
+                >Try GitHub free</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- section-4 -->
+      <div class="text-center py-5 col-8 p-tb-6">
+        <h3 class="h3 text-normal text-gray-light mb-4 text-center">
+          More than 2.9 million businesses and organizations use GitHub
+        </h3>
+        <ul
+          class="d-flex flex-justify-center flex-items-center flex-wrap list-style-none mt-3 grayscale"
+        >
+          <li>
+            <img
+              alt="Airbnb"
+              class="logo-img-sm pl-1 mt-3"
+              loading="lazy"
+              src="https://github.githubassets.com/images/modules/site/logos/airbnb-logo.png"
+            />
+          </li>
+          <li>
+            <img
+              alt="SAP"
+              class="logo-img-sm pl-1 mt-3"
+              loading="lazy"
+              src="https://github.githubassets.com/images/modules/site/logos/sap-logo.png"
+            />
+          </li>
+          <li>
+            <img
+              alt="IBM"
+              class="logo-img-sm pl-1 mt-3"
+              loading="lazy"
+              src="https://github.githubassets.com/images/modules/site/logos/ibm-logo.png"
+            />
+          </li>
+          <li>
+            <img
+              alt="Google"
+              class="logo-img-sm pl-1 mt-3"
+              loading="lazy"
+              src="https://github.githubassets.com/images/modules/site/logos/google-logo.png"
+            />
+          </li>
+          <li>
+            <img
+              alt="PayPal"
+              class="logo-img-sm pl-1 mt-3"
+              loading="lazy"
+              src="https://github.githubassets.com/images/modules/site/logos/paypal-logo.png"
+            />
+          </li>
+          <li>
+            <img
+              alt="Bloomberg"
+              class="logo-img-sm pl-1 mt-3"
+              loading="lazy"
+              src="https://github.githubassets.com/images/modules/site/logos/bloomberg-logo.png"
+            />
+          </li>
+          <li>
+            <img
+              alt="Spotify"
+              class="logo-img-sm pl-1 mt-3"
+              loading="lazy"
+              src="https://github.githubassets.com/images/modules/site/logos/spotify-logo.png"
+            />
+          </li>
+          <li>
+            <img
+              alt="Swift"
+              class="logo-img-sm pl-1 mt-3"
+              loading="lazy"
+              src="https://github.githubassets.com/images/modules/site/logos/swift-logo.png"
+            />
+          </li>
+          <li>
+            <img
+              alt="Facebook"
+              class="logo-img-sm pl-1 mt-3"
+              loading="lazy"
+              src="https://github.githubassets.com/images/modules/site/logos/facebook-logo.png"
+            />
+          </li>
+          <li>
+            <img
+              alt="Node.js"
+              class="logo-img-sm pl-1 mt-3"
+              loading="lazy"
+              src="https://github.githubassets.com/images/modules/site/logos/node-logo.png"
+            />
+          </li>
+          <li>
+            <img
+              alt="NASA"
+              class="logo-img-sm pl-1 mt-3"
+              loading="lazy"
+              src="https://github.githubassets.com/images/modules/site/logos/nasa-logo.png"
+            />
+          </li>
+          <li>
+            <img
+              alt="Walmart"
+              class="logo-img-sm pl-1 mt-3"
+              loading="lazy"
+              src="https://github.githubassets.com/images/modules/site/logos/walmart-logo.png"
+            />
+          </li>
+        </ul>
+      </div>
+      <!-- section-5 -->
+      <div class="pt-8">
+        <div class="container-lg p-responsive pb-4">
+          <h2 class="h2 text-mono text-normal text-gray text-center">
+            GitHub for teams
+          </h2>
+          <p class="h00-mktg lh-2 mt-3 mb-2 text-center">
+            A better way to work together
+          </p>
+          <p class="lead-mktg text-gray text-center col-9 mx-auto mb-4">
+            GitHub brings teams together to work through problems, move ideas
+            forward, and learn from each other along&nbsp;the&nbsp;way.
+          </p>
+          <div class="text-center">
+            <a
+              href="/join?plan=business&amp;ref_cta=Sign+up+your+team&amp;ref_loc=GitHub+for+teams&amp;ref_page=%2F&amp;setup_organization=true&amp;source=home"
+              class="btn-mktg btn-3 btn-large-mktg btn-outline-mktg Bump-link"
+            >
+              Sign up your team <span class="Bump-link-symbol">→</span>
+            </a>
+          </div>
+        </div>
+        <div class="container-xl mt-5">
+          <div class="d-flex">
+            <div class="col-max"><img src="images/team.svg" alt="team" /></div>
+            <div class="flex-column">
+              <div
+                class="col-83 p-24 d-flex flex-justify-between flex-items-center"
+              >
+                <div class="col-80 img-responsive font-famile-helvetica">
+                  <h3 class="h3 text-normal mb-1">Write better code</h3>
+                  <p class="mb-0">
+                    Collaboration makes perfect. The conversations and code
+                    reviews that happen in pull requests help your team share
+                    the weight of your work and improve the software you build.
+                    <a
+                      href="https://github.com/features/code-review"
+                      class="link-mktg text-blue border-bottom-blue"
+                      >Learn about code review.</a
+                    >
+                  </p>
+                  <img
+                    class="random-div-img"
+                    src="images/team-code.svg"
+                    alt="team-code"
+                  />
+                </div>
+                <svg
+                  class="octicon"
+                  viewBox="0 0 16 16"
+                  version="1.1"
+                  width="16"
+                  height="16"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M6.427 4.427l3.396 3.396a.25.25 0 010 .354l-3.396 3.396A.25.25 0 016 11.396V4.604a.25.25 0 01.427-.177z"
+                  ></path>
+                </svg>
+              </div>
+              <div
+                class="col-83 p-24 d-flex flex-justify-between flex-items-center"
+              >
+                <div class="col-80 img-responsive font-famile-helvetica">
+                  <h3 class="h3 text-normal mb-1">Manage your chaos</h3>
+                  <p class="mb-0">
+                    Take a deep breath. On GitHub, project management happens in
+                    issues and project boards, right alongside your code. All
+                    you have to do is mention a teammate to get them involved.
+                    <span class="link-mktg text-blue border-bottom-blue"
+                      >Learn about project management.</span
+                    >
+                  </p>
+                  <img
+                    class="random-div-img-2"
+                    src="images/team-chaos.svg"
+                    alt="team-chaos"
+                  />
+                </div>
+                <svg
+                  class="octicon"
+                  viewBox="0 0 16 16"
+                  version="1.1"
+                  width="16"
+                  height="16"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M6.427 4.427l3.396 3.396a.25.25 0 010 .354l-3.396 3.396A.25.25 0 016 11.396V4.604a.25.25 0 01.427-.177z"
+                  ></path>
+                </svg>
+              </div>
+              <div
+                class="col-83 p-24 d-flex flex-justify-between flex-items-center"
+              >
+                <div class="col-80 img-responsive font-famile-helvetica">
+                  <h3 class="h3 text-normal mb-1">Find the right tools</h3>
+                  <p class="mb-0">
+                    Browse and buy apps from GitHub Marketplace with your GitHub
+                    account. Find the tools you like or discover new
+                    favorites—then start using them in minutes.
+                    <span class="link-mktg text-blue border-bottom-blue"
+                      >Learn about integrations.</span
+                    >
+                  </p>
+                  <img
+                    class="random-div-img-3"
+                    src="images/team-tools.svg"
+                    alt="team-tools"
+                  />
+                </div>
+                <svg
+                  class="octicon"
+                  viewBox="0 0 16 16"
+                  version="1.1"
+                  width="16"
+                  height="16"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M6.427 4.427l3.396 3.396a.25.25 0 010 .354l-3.396 3.396A.25.25 0 016 11.396V4.604a.25.25 0 01.427-.177z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <h3 class="lead-mktg text-gray text-center col-8 mt-5 mx-auto mb-3">
+            See how the world's leading companies use GitHub Enterprise.
+          </h3>
+          <div
+            class="d-flex flex-wrap flex flex-items-stretch flex-justify-around container-xl mx-auto p-responsive"
+          >
+            <article
+              class="col-lg-3 d-flex flex-coloumn bg-white rounded-1 no-underline d-flex flex-coloumn position-relative height-full"
+            >
+              <a
+                href="https://github.com/customer-stories/mgm-resorts"
+                class="Bump-link customer-story-card pt-1 pr-1 pl-1"
+                ><div
+                  class="height-lion img-responsive customer-story-card position-relative rounded-1"
+                >
+                  <img
+                    src="images/hero.jpg"
+                    alt="hero-lion"
+                    class="customer-story-card-img width-full height-full rounded-1"
+                  />
+                  <button class="random-btn">About</button>
+                </div>
+                <div class="p-tb-1">
+                  <h2 class="h4 text-gray-dark mb-1">
+                    MGM Resorts International
+                  </h2>
+                  <p class="text-gray f1">
+                    <span class="d-block mb-2">
+                      Hospitality
+                    </span>
+                  </p>
+                </div>
+                <div
+                  class="d-flex width-full flex-justify-between arrow-hover border-top p-tb-1"
+                >
+                  <span class="text-blue-mktg">Read more</span
+                  ><span class="Bump-link-symbol text-blue-mktg">→</span>
+                </div>
+              </a>
+            </article>
+            <article
+              class="col-lg-3 d-flex flex-coloumn bg-white rounded-1 no-underline d-flex flex-coloumn position-relative height-full"
+            >
+              <a
+                href="https://github.com/customer-stories/nationwide"
+                class="Bump-link customer-story-card pt-1 pr-1 pl-1"
+                ><div
+                  class="height-lion img-responsive customer-story-card position-relative rounded-1"
+                >
+                  <img
+                    src="images/nw_hero.jpg"
+                    alt="nw_hero"
+                    class="customer-story-card-img width-full height-full rounded-1"
+                  />
+                  <button class="random-btn">About</button>
+                </div>
+                <div class="p-tb-1">
+                  <h1 class="h4 text-gray-dark mb-1">
+                    Nationwide
+                  </h1>
+                  <p class="text-gray f1">
+                    <span class="d-block mb-2">
+                      Insurance
+                    </span>
+                  </p>
+                </div>
+                <div
+                  class="d-flex width-full flex-justify-between arrow-hover border-top p-tb-1"
+                >
+                  <span class="text-blue-mktg">Read more</span
+                  ><span class="Bump-link-symbol text-blue-mktg">→</span>
+                </div>
+              </a>
+            </article>
+            <article
+              class="col-lg-3 d-flex flex-coloumn bg-white rounded-1 no-underline d-flex flex-coloumn position-relative height-full"
+            >
+              <a
+                href="https://github.com/customer-stories/sap"
+                class="Bump-link customer-story-card pt-1 pr-1 pl-1"
+                ><div
+                  class="height-lion img-responsive customer-story-card position-relative rounded-1"
+                >
+                  <img
+                    src="images/sap6.jpg"
+                    alt="sap6"
+                    class="customer-story-card-img width-full height-full rounded-1"
+                  />
+                  <button class="random-btn">About</button>
+                </div>
+                <div class="p-tb-1">
+                  <h1 class="h4 text-gray-dark mb-1">
+                    SAP
+                  </h1>
+                  <p class="text-gray f1">
+                    <span class="d-block mb-2">
+                      Business Software
+                    </span>
+                  </p>
+                </div>
+                <div
+                  class="d-flex width-full flex-justify-between arrow-hover border-top p-tb-1"
+                >
+                  <span class="text-blue-mktg">Read more</span
+                  ><span class="Bump-link-symbol text-blue-mktg">→</span>
+                </div>
+              </a>
+            </article>
+            <article
+              class="col-lg-3 d-flex flex-coloumn bg-white rounded-1 no-underline d-flex flex-coloumn position-relative height-full"
+            >
+              <a
+                href="https://github.com/customer-stories/spotify"
+                class="Bump-link customer-story-card pt-1 pr-1 pl-1"
+                ><div
+                  class="height-lion img-responsive customer-story-card position-relative rounded-1"
+                >
+                  <img
+                    src="images/spotifyhero.jpg"
+                    alt="spotify"
+                    class="customer-story-card-img width-full height-full rounded-1"
+                  />
+                  <button class="random-btn">About</button>
+                </div>
+                <div class="p-tb-1">
+                  <h1 class="h4 text-gray-dark mb-1">
+                    Spotify
+                  </h1>
+                  <p class="text-gray f1">
+                    <span class="d-block mb-2">
+                      Technology / Streaming
+                    </span>
+                  </p>
+                </div>
+                <div
+                  class="d-flex width-full flex-justify-between arrow-hover border-top p-tb-1"
+                >
+                  <span class="text-blue-mktg">Read more</span
+                  ><span class="Bump-link-symbol text-blue-mktg">→</span>
+                </div>
+              </a>
+            </article>
+          </div>
+        </div>
+        <!-- section-6 -->
+        <div class="p-tb-8">
+          <div class="container-lg p-responsive">
+            <h2 class="h2 text-mono text-normal text-gray text-center">
+              Security and administration
+            </h2>
+            <p class="h00-mktg mt-3 mb-2 text-center">
+              Your business needs, met
+            </p>
+            <p class="lead-mktg text-gray text-center col-8 mx-auto mb-4">
+              From flexible hosting to granular access controls, we’ve got your
+              security requirements&nbsp;covered.
+            </p>
+            <p class="text-center mb-5">
+              <a
+                href="/enterprise"
+                class="btn-mktg btn-large-mktg btn-outline-mktg mx-auto Bump-link"
+              >
+                <span class="d-none d-sm-inline"
+                  >Learn how GitHub Enterprise works
+                  <span class="Bump-link-symbol">→</span></span
+                >
+              </a>
+            </p>
+            <div class="d-flex flex-items-center flex-row-reverse mt-5 mb-3">
+              <div class="col-5 mx-auto pl-1 pr-md-0 text-center">
+                <img
+                  src="https://github.githubassets.com/images/modules/site/home/business.png"
+                  alt="Security and administration"
+                  class="width-fit mb-4"
+                  loading="lazy"
+                />
+              </div>
+              <div class="col-6 mx-auto text-md-left f2 p-sm-6">
+                <h3 class="h3 text-normal mb-1">Code security</h3>
+                <p
+                  class="text-gray mb-3 mb-md-5 font-good font-famile-helvetica-14 font-weight-400"
+                >
+                  Prevent problems before they happen. Protected branches,
+                  signed commits, and required status checks protect your work
+                  and help you maintain a high standard for your code.
+                </p>
+                <h3 class="h3 text-normal mb-1 mt-sm-6">
+                  Access controlled
+                </h3>
+                <p
+                  class="text-gray mb-3 mb-md-5 font-good font-famile-helvetica-14 font-weight-400"
+                >
+                  Encourage teams to work together while limiting access to
+                  those who need it with granular permissions and authentication
+                  through SAML/SSO and LDAP.
+                </p>
+              </div>
+            </div>
+            <div
+              class="col-8 hover-box-shadow mx-auto p-2 border pd-24-32 bg-white"
+            >
+              <div class="float-left height-150">
+                <img src="images/modules.svg" alt="modules" class="mr-4" />
+              </div>
+              <div class="img-responsive overflow-hidden">
+                <h3 class="h4">Hosted where you need it</h3>
+                <p
+                  class="h5 font-famile-helvetica-14 font-weight-400 text-gray mr-2"
+                >
+                  Securely and reliably host your work on GitHub using GitHub<br />
+                  Enterprise Cloud. Or deploy GitHub Enterprise Server in your
+                  own<br />
+                  data centers or in a private cloud using Amazon Web Services,
+                  Azure,<br />
+                  or Google Cloud Platform.
+                </p>
+
+                <a
+                  href="/pricing"
+                  class="d-block no-underline Bump-link text-blue"
+                  >Compare plans <span class="Bump-link-symbol">→</span></a
+                >
+                <a
+                  href="https://enterprise.github.com/contact"
+                  class="d-block no-underline Bump-link text-blue"
+                  >Contact Sales for more information
+                  <span class="Bump-link-symbol">→</span></a
+                >
+                <div class="small-dots-left"></div>
+                <div class="small-dots-right"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- section-7 -->
+        <div class="p-tb-8 text-center">
+          <div class="col-4 p-tb-6 mx-auto">
+            <h2 class="h4 text-mono text-normal text-gray">
+              Integrations
+            </h2>
+            <p class="h00-mktg lh-1 mt-3 mb-2">
+              Build on GitHub
+            </p>
+            <p class="lead-mktg text-gray mb-4 px-md-3">
+              Customize your process with GitHub apps and an intuitive API.
+              Integrate the tools you already use or discover new favorites to
+              create a happier, more efficient way of working.
+            </p>
+            <p class="f4 text-center mb-6">
+              <a
+                href="/features/integrations"
+                class="btn-mktg btn-large-mktg btn-outline-mktg mx-auto Bump-link"
+                >Learn about integrations
+                <span class="Bump-link-symbol">→</span></a
+              >
+            </p>
+          </div>
+          <div class="d-flex flex-wrap container-lg-7 mx-auto pt-3 pb-5">
+            <div class="d-flex position-2 mr-rbl-3">
+              <div
+                class="img-responsive circle-96 d-flex flex-justify-center flex-items-center"
+                style="background-color: #4a154b;"
+              >
+                <img class="images-52" src="images/slackhq.png" alt="slackhq" />
+                <div class="random-text rounded-1 block">
+                  <p class="text-white">Slack</p>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex mr-rbl-3">
+              <div
+                class="img-responsive circle-96 d-flex flex-justify-center flex-items-center"
+                style="background-color: #364e98;"
+              >
+                <img
+                  class="images-52"
+                  src="images/zenhubio.png"
+                  alt="zenhubio"
+                />
+                <div class="random-text-2 rounded-1 block">
+                  <p class="text-white">Zen</p>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex position-2 mr-rbl-3">
+              <div
+                class="img-responsive circle-96 d-flex flex-justify-center flex-items-center"
+                style="background-color: #eff9f9;"
+              >
+                <img
+                  class="images-52"
+                  src="images/travis-ci.png"
+                  alt="travis-ci"
+                />
+                <div class="random-text rounded-1 block">
+                  <p class="text-white">Travis Ci</p>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex mr-rbl-3">
+              <div
+                class="img-responsive circle-96 d-flex flex-justify-center flex-items-center"
+                style="background-color: #5fb57d;"
+              >
+                <img class="images-52" src="images/atom.png" alt="atom" />
+                <div class="random-text-2 rounded-1 block">
+                  <p class="text-white">Atom</p>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex position-2 mr-rbl-3">
+              <div
+                class="img-responsive circle-96 d-flex flex-justify-center flex-items-center"
+                style="background-color: #022531;"
+              >
+                <img
+                  class="images-52"
+                  src="images/circleci.png"
+                  alt="circleci"
+                />
+                <div class="random-text rounded-1 block">
+                  <p class="text-white">Circle Ci</p>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex mr-rbl-3">
+              <div
+                class="img-responsive circle-96 d-flex flex-justify-center flex-items-center"
+                style="background-color: #f2f2f2;"
+              >
+                <img class="images-52" src="images/google.png" alt="google" />
+                <div class="random-text-2 rounded-1 block">
+                  <p class="text-white">Goodle</p>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex position-2 mr-rbl-3">
+              <div
+                class="img-responsive circle-96 d-flex flex-justify-center flex-items-center"
+                style="background-color: #303030;"
+              >
+                <img
+                  class="images-52"
+                  src="images/codeclimate.png"
+                  alt="codeclimate"
+                />
+                <div class="random-text rounded-1 block">
+                  <p class="text-white">Code Climate</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-19 p-tb-6 mx-auto">
+            <p class="f5 mx-auto text-gray font-famile-helvetica-14">
+              Sometimes, there’s more than one tool for the job. Why not try
+              something new?
+            </p>
+            <p>
+              <a
+                href="/marketplace"
+                class="no-underline Bump-link font-famile-helvetica-16 text-blue"
+              >
+                Browse GitHub Marketplace
+                <span class="Bump-link-symbol">→</span>
+              </a>
+            </p>
+          </div>
+        </div>
+        <!-- section-8-->
+        <div class="p-tb-8">
+          <div class="container-lg p-responsive">
+            <h2 class="h4 text-mono text-normal text-gray text-center">
+              Community
+            </h2>
+            <p class="h00-mktg mt-3 mb-4 lh-2 text-center">
+              Welcome home, <br />developers
+            </p>
+            <p class="lead-mktg text-gray text-center col-md-8 mx-auto">
+              GitHub is home to the world’s largest community of developers and
+              their&nbsp;projects...
+            </p>
+          </div>
+          <div
+            class="d-flex flex-wrap flex flex-items-stretch flex-justify-around container-xl mx-auto p-responsive card-width"
+          >
+            <article
+              class="col-lg-3 d-flex flex-coloumn bg-white rounded-1 no-underline d-flex flex-coloumn position-relative height-full"
+            >
+              <a
+                href="https://github.com/customer-stories/freakboy3742"
+                class="Bump-link customer-story-card pt-1 pr-1 pl-1"
+                ><div
+                  class="height-lion img-responsive customer-story-card position-relative rounded-1"
+                >
+                  <img
+                    src="images/hero (1).jpg"
+                    alt="hero-lion"
+                    class="customer-story-card-img width-full height-full rounded-1"
+                  />
+                  <button class="random-btn">Заказать консультацию</button>
+                </div>
+                <div class="pt-1">
+                  <h2 class="h4 text-gray-dark mb-1">
+                    Russell Keith-Magee
+                  </h2>
+                  <p class="text-gray f1">
+                    <span class="d-block mb-2 col-height font-famile-helvetica">
+                      Russell Keith-Magee created BeeWare to fill a gap in his
+                      own process. Today, BeeWare is the go-to project for
+                      supporting Python on every platform.
+                    </span>
+                  </p>
+                </div>
+                <div
+                  class="d-flex width-full flex-justify-between arrow-hover border-top p-tb-1"
+                >
+                  <span class="text-blue-mktg">Read more</span
+                  ><span class="Bump-link-symbol text-blue-mktg">→</span>
+                </div>
+              </a>
+            </article>
+            <article
+              class="col-lg-3 d-flex flex-coloumn bg-white rounded-1 no-underline d-flex flex-coloumn position-relative height-full"
+            >
+              <a
+                href="https://github.com/customer-stories/kris-nova"
+                class="Bump-link customer-story-card pt-1 pr-1 pl-1"
+                ><div
+                  class="height-lion img-responsive customer-story-card position-relative rounded-1"
+                >
+                  <img
+                    src="images/hero (2).jpg"
+                    alt="nw_hero"
+                    class="customer-story-card-img width-full height-full rounded-1"
+                  />
+                  <button class="random-btn">Заказать консультацию</button>
+                </div>
+                <div class="pt-1">
+                  <h1 class="h4 text-gray-dark mb-1">
+                    Kris Nova
+                  </h1>
+                  <p class="text-gray f1">
+                    <span class="d-block mb-2 col-height font-famile-helvetica">
+                      Kris Nova quickly developed a passion for open source
+                      software. Now she gets to work on open source tooling at
+                      her day job, which includes maintaining Kubernetes
+                      Operations (kops).
+                    </span>
+                  </p>
+                </div>
+                <div
+                  class="d-flex width-full flex-justify-between arrow-hover border-top p-tb-1"
+                >
+                  <span class="text-blue-mktg">Read more</span
+                  ><span class="Bump-link-symbol text-blue-mktg">→</span>
+                </div>
+              </a>
+            </article>
+            <article
+              class="col-lg-3 d-flex flex-coloumn bg-white rounded-1 no-underline d-flex flex-coloumn position-relative height-full"
+            >
+              <a
+                href="https://github.com/customer-stories/yyx990803"
+                class="Bump-link customer-story-card pt-1 pr-1 pl-1"
+                ><div
+                  class="height-lion img-responsive customer-story-card position-relative rounded-1"
+                >
+                  <img
+                    src="images/hero (3).jpg"
+                    alt="sap6"
+                    class="customer-story-card-img width-full height-full rounded-1"
+                  />
+                  <button class="random-btn">Заказать консультацию</button>
+                </div>
+                <div class="pt-1">
+                  <h1 class="h4 text-gray-dark mb-1">
+                    Evan You
+                  </h1>
+                  <p class="text-gray f1">
+                    <span class="d-block mb-2 col-height font-famile-helvetica">
+                      In 2013, Evan You founded Vue, a Javascript framework
+                      funded by the community on Patreon. In 2016, Vue reached
+                      2,000,000 downloads.
+                    </span>
+                  </p>
+                </div>
+                <div
+                  class="d-flex width-full flex-justify-between arrow-hover border-top p-tb-1"
+                >
+                  <span class="text-blue-mktg">Read more</span
+                  ><span class="Bump-link-symbol text-blue-mktg">→</span>
+                </div>
+              </a>
+            </article>
+            <article
+              class="col-lg-3 d-flex flex-coloumn bg-white rounded-1 no-underline d-flex flex-coloumn position-relative height-full"
+            >
+              <a
+                href="https://github.com/customer-stories/jessfraz"
+                class="Bump-link customer-story-card pt-1 pr-1 pl-1"
+                ><div
+                  class="height-lion img-responsive customer-story-card position-relative rounded-1"
+                >
+                  <img
+                    src="images/hero (4).jpg"
+                    alt="spotify"
+                    class="customer-story-card-img width-full height-full rounded-1"
+                  />
+                  <button class="random-btn">Заказать консультацию</button>
+                </div>
+                <div class="pt-1">
+                  <h1 class="h4 text-gray-dark mb-1">
+                    Jess Frazelle
+                  </h1>
+                  <p class="text-gray f1">
+                    <span class="d-block mb-2 col-height font-famile-helvetica">
+                      Jess Frazelle works on Kubernetes full-time. Previously
+                      she maintained Docker, a software containerization
+                      platform used by thousands of teams.
+                    </span>
+                  </p>
+                </div>
+                <div
+                  class="d-flex width-full flex-justify-between arrow-hover border-top p-tb-1"
+                >
+                  <span class="text-blue-mktg">Read more</span
+                  ><span class="Bump-link-symbol text-blue-mktg">→</span>
+                </div>
+              </a>
+            </article>
+          </div>
+        </div>
+        <!-- section-9 -->
+        <div class="container-lg p-responsive">
+          <p class="lead-mktg text-gray text-center col-9 mx-auto pb-5">
+            ...whether you’re making your first commit or sending a Rover to
+            Mars, there’s room for you here, too.
+          </p>
+          <div class="flex-column communitystats">
+            <div
+              class="col-83 p-24 d-flex flex-justify-between flex-items-center"
+            >
+              <div class="col-80 img-responsive font-famile-helvetica">
+                <p class="mb-0">
+                  GitHub’s users create and maintain influential technologies
+                  alongside the world’s largest
+                  <span class="text-orange">open source&nbsp;community</span>
+                </p>
+                <img
+                  class="random-div-img"
+                  src="images/team-code.svg"
+                  alt="team-code"
+                />
+              </div>
+              <svg
+                class="octicon"
+                viewBox="0 0 16 16"
+                version="1.1"
+                width="16"
+                height="16"
+                aria-hidden="true"
+              >
+                <path
+                  d="M6.427 4.427l3.396 3.396a.25.25 0 010 .354l-3.396 3.396A.25.25 0 016 11.396V4.604a.25.25 0 01.427-.177z"
+                ></path>
+              </svg>
+            </div>
+            <div
+              class="col-83 p-24 d-flex flex-justify-between flex-items-center"
+            >
+              <div class="col-80 img-responsive font-famile-helvetica">
+                <p><span class="text-blue">Developers</span>
+                use GitHub for personal projects, from experimenting with new programming languages to hosting their life’s work.</p>
+                </p>
+                <img
+                  class="random-div-img-2"
+                  src="images/team-chaos.svg"
+                  alt="team-chaos"
+                />
+              </div>
+              <svg
+                class="octicon"
+                viewBox="0 0 16 16"
+                version="1.1"
+                width="16"
+                height="16"
+                aria-hidden="true"
+              >
+                <path
+                  d="M6.427 4.427l3.396 3.396a.25.25 0 010 .354l-3.396 3.396A.25.25 0 016 11.396V4.604a.25.25 0 01.427-.177z"
+                ></path>
+              </svg>
+            </div>
+            <div
+              class="col-83 p-24 d-flex flex-justify-between flex-items-center"
+            >
+              <div class="col-80 img-responsive font-famile-helvetica">
+                <p><span class="text-purple">Businesses</span>
+                  of all sizes use GitHub to support their development process and to securely build software.
+                </p>
+                <img
+                  class="random-div-img-3"
+                  src="images/team-tools.svg"
+                  alt="team-tools"
+                />
+              </div>
+              <svg
+                class="octicon"
+                viewBox="0 0 16 16"
+                version="1.1"
+                width="16"
+                height="16"
+                aria-hidden="true"
+              >
+                <path
+                  d="M6.427 4.427l3.396 3.396a.25.25 0 010 .354l-3.396 3.396A.25.25 0 016 11.396V4.604a.25.25 0 01.427-.177z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="p-tb-8 bg-gray-dark">
+          <div class="col-78 mx-auto p-responsive text-white text-center">
+            <h2 class="h1-mktg text-normal">
+              Get started for free — join the millions of developers already
+              using GitHub to share their code, work together, and build amazing
+              things.
+            </h2>
+          </div>
+          <div class="col-10 p-responsive mx-auto p-tb-6 mt-5">
+            <form class="d-flex flex-wrap flex-justify-between">
+              <div>
+                <label class="d-block mb-2 text-white" for="user[name]"
+                  >Username
+                </label>
+                <input
+                  class="h4 form-control rounded-1 input-width"
+                  type="text"
+                  name="user[name]"
+                  id="user[name]"
+                  placeholder="Pick a username"
+                />
+              </div>
+              <div>
+                <label class="d-block mb-2 text-white" for="user[email]"
+                  >Email
+                </label>
+                <input
+                  class="h4 form-control rounded-1 input-width"
+                  type="text"
+                  name="user[email]"
+                  id="user[email]"
+                  placeholder="Your email address"
+                />
+              </div>
+              <div>
+                <label class="d-block mb-2 text-white" for="user[password]"
+                  >Password
+                </label>
+                <input
+                  class="h4 form-control rounded-1 input-width"
+                  type="text"
+                  name="user[password]"
+                  id="user[password]"
+                  placeholder="Creare a password"
+                />
+              </div>
+              <button class="btn-mktg btn-primary-mktg btn-width" type="submit">
+                Sign up for GitHub
+              </button>
+            </form>
+            <p class="form-control-note text-center mt-5 font-famile-helvetica">
+              By clicking “Sign up for GitHub”, you agree to our
+              <a
+                class="text-white text-decor"
+                href="https://docs.github.com/terms"
+                >terms of service</a
+              >
+              and
+              <a
+                class="text-white text-decor"
+                href="https://docs.github.com/privacy"
+                >privacy statement</a
+              >. We’ll occasionally send you account related emails.
+            </p>
+          </div>
+        </div>
+      </div>
+      `
     </main>
+    <!-- footer -->
+    <footer class="mt-5">
+      <div
+        class="col-10 mx-auto d-flex flex-wrap flex-justify-between p-tb-3 mb-45 mb-5"
+      >
+        <div class="col-2 mb-5">
+          <a href="https://github.com/" class="text-gray-dark">
+            <svg
+              height="30"
+              class="octicon octicon-logo-github"
+              viewBox="0 0 45 16"
+              width="84"
+            >
+              <path
+                d="M18.53 12.03h-.02c.009 0 .015.01.024.011h.006l-.01-.01zm.004.011c-.093.001-.327.05-.574.05-.78 0-1.05-.36-1.05-.83V8.13h1.59c.09 0 .16-.08.16-.19v-1.7c0-.09-.08-.17-.16-.17h-1.59V3.96c0-.08-.05-.13-.14-.13h-2.16c-.09 0-.14.05-.14.13v2.17s-1.09.27-1.16.28c-.08.02-.13.09-.13.17v1.36c0 .11.08.19.17.19h1.11v3.28c0 2.44 1.7 2.69 2.86 2.69.53 0 1.17-.17 1.27-.22.06-.02.09-.09.09-.16v-1.5a.177.177 0 00-.146-.18zM42.23 9.84c0-1.81-.73-2.05-1.5-1.97-.6.04-1.08.34-1.08.34v3.52s.49.34 1.22.36c1.03.03 1.36-.34 1.36-2.25zm2.43-.16c0 3.43-1.11 4.41-3.05 4.41-1.64 0-2.52-.83-2.52-.83s-.04.46-.09.52c-.03.06-.08.08-.14.08h-1.48c-.1 0-.19-.08-.19-.17l.02-11.11c0-.09.08-.17.17-.17h2.13c.09 0 .17.08.17.17v3.77s.82-.53 2.02-.53l-.01-.02c1.2 0 2.97.45 2.97 3.88zm-8.72-3.61h-2.1c-.11 0-.17.08-.17.19v5.44s-.55.39-1.3.39-.97-.34-.97-1.09V6.25c0-.09-.08-.17-.17-.17h-2.14c-.09 0-.17.08-.17.17v5.11c0 2.2 1.23 2.75 2.92 2.75 1.39 0 2.52-.77 2.52-.77s.05.39.08.45c.02.05.09.09.16.09h1.34c.11 0 .17-.08.17-.17l.02-7.47c0-.09-.08-.17-.19-.17zm-23.7-.01h-2.13c-.09 0-.17.09-.17.2v7.34c0 .2.13.27.3.27h1.92c.2 0 .25-.09.25-.27V6.23c0-.09-.08-.17-.17-.17zm-1.05-3.38c-.77 0-1.38.61-1.38 1.38 0 .77.61 1.38 1.38 1.38.75 0 1.36-.61 1.36-1.38 0-.77-.61-1.38-1.36-1.38zm16.49-.25h-2.11c-.09 0-.17.08-.17.17v4.09h-3.31V2.6c0-.09-.08-.17-.17-.17h-2.13c-.09 0-.17.08-.17.17v11.11c0 .09.09.17.17.17h2.13c.09 0 .17-.08.17-.17V8.96h3.31l-.02 4.75c0 .09.08.17.17.17h2.13c.09 0 .17-.08.17-.17V2.6c0-.09-.08-.17-.17-.17zM8.81 7.35v5.74c0 .04-.01.11-.06.13 0 0-1.25.89-3.31.89-2.49 0-5.44-.78-5.44-5.92S2.58 1.99 5.1 2c2.18 0 3.06.49 3.2.58.04.05.06.09.06.14L7.94 4.5c0 .09-.09.2-.2.17-.36-.11-.9-.33-2.17-.33-1.47 0-3.05.42-3.05 3.73s1.5 3.7 2.58 3.7c.92 0 1.25-.11 1.25-.11v-2.3H4.88c-.11 0-.19-.08-.19-.17V7.35c0-.09.08-.17.19-.17h3.74c.11 0 .19.08.19.17z"
+              ></path>
+            </svg>
+          </a>
+        </div>
+        <div class="col-8 d-flex flex-justify-around">
+          <div class="col-2 mb-2 pr-0">
+            <h2 class="h5 mb-3 text-mono text-gray-light text-normal">
+              Product
+            </h2>
+            <ul class="list-style-none text-gray f5 p-l-0">
+              <li class="lh-2 mb-3">
+                <a href="/features" class="link-gray">Features</a>
+              </li>
+              <li class="lh-2 mb-3">
+                <a href="/security" class="link-gray">Security</a>
+              </li>
+              <li class="lh-2 mb-3">
+                <a href="/team" class="link-gray">Team</a>
+              </li>
+              <li class="lh-2 mb-3">
+                <a href="/enterprise" class="link-gray">Enterprise</a>
+              </li>
+              <li class="lh-2 mb-3">
+                <a href="/customer-stories" class="link-gray"
+                  >Customer stories</a
+                >
+              </li>
+              <li class="lh-2 mb-3">
+                <a href="/pricing" class="link-gray text-decor-2">Pricing</a>
+              </li>
+              <li class="lh-2 mb-3">
+                <a href="https://resources.github.com" class="link-gray"
+                  >Resources</a
+                >
+              </li>
+              <li class="lh-2 mb-3">
+                <a
+                  href="https://github.com/github/roadmap"
+                  data-ga-click="Footer, go to roadmap, text:roadmap"
+                  class="link-gray"
+                  >Roadmap</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-2 mb-2 pr-0">
+            <h2 class="h5 mb-3 text-mono text-gray-light text-normal">
+              Platform
+            </h2>
+            <ul class="list-style-none text-gray f5 p-l-0">
+              <li class="lh-2 mb-3">
+                <a href="/features" class="link-gray">Developer API</a>
+              </li>
+              <li class="lh-2 mb-3">
+                <a href="/security" class="link-gray">Partners</a>
+              </li>
+              <li class="lh-2 mb-3">
+                <a href="/team" class="link-gray">Atom</a>
+              </li>
+              <li class="lh-2 mb-3">
+                <a href="/enterprise" class="link-gray">Electron</a>
+              </li>
+              <li class="lh-2 mb-3">
+                <a href="/enterprise" class="link-gray">GitHub Desktop</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-2 mb-2 pr-0">
+            <h2 class="h5 mb-3 text-mono text-gray-light text-normal">
+              Support
+            </h2>
+            <ul class="list-style-none text-gray f5 p-l-0">
+              <li class="lh-2 mb-3">
+                <a href="/features" class="link-gray">Help</a>
+              </li>
+              <li class="lh-2 mb-3">
+                <a href="/security" class="link-gray">Community Forum</a>
+              </li>
+              <li class="lh-2 mb-3">
+                <a href="/team" class="link-gray">Professional Services</a>
+              </li>
+              <li class="lh-2 mb-3">
+                <a href="/enterprise" class="link-gray">Learning Lab</a>
+              </li>
+              <li class="lh-2 mb-3">
+                <a href="/enterprise" class="link-gray">Status</a>
+              </li>
+              <li class="lh-2 mb-3">
+                <a href="/enterprise" class="link-gray">Contact GitHub</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-2 mb-2 pr-0">
+            <h2 class="h5 mb-3 text-mono text-gray-light text-normal">
+              Company
+            </h2>
+            <ul class="list-style-none text-gray f5 p-l-0">
+              <li class="lh-2 mb-3">
+                <a href="/features" class="link-gray">About</a>
+              </li>
+              <li class="lh-2 mb-3">
+                <a href="/security" class="link-gray">Blog</a>
+              </li>
+              <li class="lh-2 mb-3">
+                <a href="/team" class="link-gray">Careers</a>
+              </li>
+              <li class="lh-2 mb-3">
+                <a href="/enterprise" class="link-gray">Press</a>
+              </li>
+              <li class="lh-2 mb-3">
+                <a href="/enterprise" class="link-gray">Social Impact</a>
+              </li>
+              <li class="lh-2 mb-3">
+                <a href="/enterprise" class="link-gray">Shop</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="f1 p-2 bg-gray-light">
+        <div class="col-10 d-flex flex-justify-between mx-auto">
+          <ul
+            class="d-flex list-style-none font-famile-helvetica text-gray p-l-0"
+          >
+            <li class="mr-3">&#169; 2020 GiHub,Inc.</li>
+            <li class="mr-3">
+              <a
+                class="link-gray"
+                href="https://docs.github.com/en/github/site-policy/github-terms-of-service"
+                >Terms</a
+              >
+            </li>
+            <li class="mr-3">
+              <a
+                class="link-gray"
+                href="https://docs.github.com/en/github/site-policy/github-privacy-statement"
+                >Privacy</a
+              >
+            </li>
+            <li class="mr-3">
+              <a class="link-gray" href="https://github.com/site-map"
+                >Site Map</a
+              >
+            </li>
+            <li class="mr-3">
+              <a class="link-gray" href="https://github.com/git-guides"
+                >What is Git?</a
+              >
+            </li>
+          </ul>
+          <ul class="d-flex list-style-none flex-items-center lh-1 pr-0">
+            <li class="mr-3">
+              <a href="https://twitter.com/github" style="fill: #959da5;"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 273.5 222.3"
+                  class="d-block"
+                  height="18"
+                >
+                  <path
+                    d="M273.5 26.3a109.77 109.77 0 0 1-32.2 8.8 56.07 56.07 0 0 0 24.7-31 113.39 113.39 0 0 1-35.7 13.6 56.1 56.1 0 0 0-97 38.4 54 54 0 0 0 1.5 12.8A159.68 159.68 0 0 1 19.1 10.3a56.12 56.12 0 0 0 17.4 74.9 56.06 56.06 0 0 1-25.4-7v.7a56.11 56.11 0 0 0 45 55 55.65 55.65 0 0 1-14.8 2 62.39 62.39 0 0 1-10.6-1 56.24 56.24 0 0 0 52.4 39 112.87 112.87 0 0 1-69.7 24 119 119 0 0 1-13.4-.8 158.83 158.83 0 0 0 86 25.2c103.2 0 159.6-85.5 159.6-159.6 0-2.4-.1-4.9-.2-7.3a114.25 114.25 0 0 0 28.1-29.1"
+                  ></path>
+                </svg>
+              </a>
+            </li>
+            <li class="mr-3">
+              <a href="https://www.facebook.com/GitHub" style="fill: #959da5;"
+                ><svg viewBox="0 0 15.3 15.4" height="18">
+                  <path
+                    d="M14.5 0H.8a.88.88 0 0 0-.8.9v13.6a.88.88 0 0 0 .8.9h7.3v-6h-2V7.1h2V5.4a2.87 2.87 0 0 1 2.5-3.1h.5a10.87 10.87 0 0 1 1.8.1v2.1h-1.3c-1 0-1.1.5-1.1 1.1v1.5h2.3l-.3 2.3h-2v5.9h3.9a.88.88 0 0 0 .9-.8V.8a.86.86 0 0 0-.8-.8z"
+                  ></path>
+                </svg>
+              </a>
+            </li>
+            <li class="mr-3">
+              <a href="https://www.youtube.com/github" style="fill: #959da5;"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 19.17 13.6"
+                  class="d-block"
+                  height="16"
+                >
+                  <path
+                    d="M18.77 2.13A2.4 2.4 0 0 0 17.09.42C15.59 0 9.58 0 9.58 0a57.55 57.55 0 0 0-7.5.4A2.49 2.49 0 0 0 .39 2.13 26.27 26.27 0 0 0 0 6.8a26.15 26.15 0 0 0 .39 4.67 2.43 2.43 0 0 0 1.69 1.71c1.52.42 7.5.42 7.5.42a57.69 57.69 0 0 0 7.51-.4 2.4 2.4 0 0 0 1.68-1.71 25.63 25.63 0 0 0 .4-4.67 24 24 0 0 0-.4-4.69zM7.67 9.71V3.89l5 2.91z"
+                  ></path>
+                </svg>
+              </a>
+            </li>
+            <li class="mr-3">
+              <a href="https://www.linkedin.com/ " style="fill: #959da5;"
+                ><svg viewBox="0 0 19 18" height="18" aria-hidden="true">
+                  <path
+                    d="M3.94 2A2 2 0 1 1 2 0a2 2 0 0 1 1.94 2zM4 5.48H0V18h4zm6.32 0H6.34V18h3.94v-6.57c0-3.66 4.77-4 4.77 0V18H19v-7.93c0-6.17-7.06-5.94-8.72-2.91z"
+                  ></path>
+                </svg>
+              </a>
+            </li>
+            <li class="mr-3">
+              <a href="https://github.com/github" style="fill: #959da5;"
+                ><svg
+                  height="20"
+                  alt="github"
+                  viewBox="0 0 16 16"
+                  version="1.1"
+                  width="20"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"
+                  ></path>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
