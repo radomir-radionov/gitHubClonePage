@@ -1,1 +1,1 @@
-# project-1 https://radomir-radionov.github.io/project-1/.
+gitHub clone page - https://radomir-radionov.github.io/htmlPage/
